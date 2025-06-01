@@ -4,5 +4,5 @@ const app = express();
 const port = 3000
 await bootstrap(app,express);
 app.listen(port,()=>{
-    console.log(`app is running at ${port}`)
+    console.log(`app is >> running at ${port}`)
 })
